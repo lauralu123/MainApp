@@ -7,14 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CE850DFDB071A2E3ED8F31E /* Pods_Phynergy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0041628E89B36260DD3EF26 /* Pods_Phynergy.framework */; };
 		B91BDCBA21055D3E0072D1F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91BDCB921055D3E0072D1F2 /* AppDelegate.swift */; };
 		B91BDCBC21055D3E0072D1F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91BDCBB21055D3E0072D1F2 /* ViewController.swift */; };
 		B91BDCBF21055D3E0072D1F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91BDCBD21055D3E0072D1F2 /* Main.storyboard */; };
 		B91BDCC121055D400072D1F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B91BDCC021055D400072D1F2 /* Assets.xcassets */; };
 		B91BDCC421055D400072D1F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91BDCC221055D400072D1F2 /* LaunchScreen.storyboard */; };
+		B91BDCCC21055DC60072D1F2 /* LandingUI.png in Resources */ = {isa = PBXBuildFile; fileRef = B91BDCCB21055DC50072D1F2 /* LandingUI.png */; };
+		B91BDCCE21055E210072D1F2 /* Group 10logo2 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = B91BDCCD21055E200072D1F2 /* Group 10logo2 copy.png */; };
+		B91BDCD021055F020072D1F2 /* Group 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B91BDCCF21055F010072D1F2 /* Group 2.png */; };
+		B91BDCD221055F7A0072D1F2 /* Group 3.png in Resources */ = {isa = PBXBuildFile; fileRef = B91BDCD121055F7A0072D1F2 /* Group 3.png */; };
+		B91BDCD4210565280072D1F2 /* Forgot Password_.png in Resources */ = {isa = PBXBuildFile; fileRef = B91BDCD3210565270072D1F2 /* Forgot Password_.png */; };
+		B91BDCD6210566790072D1F2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91BDCD5210566790072D1F2 /* LoginViewController.swift */; };
+		B95CFB002106721B0028259F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95CFAFF2106721B0028259F /* SignUpViewController.swift */; };
+		B9729DC121058371006A33BB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9729DC021058371006A33BB /* GoogleService-Info.plist */; };
+		B9729DC321058CF9006A33BB /* noun_profile_1835121 copy 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B9729DC221058CF9006A33BB /* noun_profile_1835121 copy 2.png */; };
+		B9729DC521058EF3006A33BB /* Exercise.png in Resources */ = {isa = PBXBuildFile; fileRef = B9729DC421058EF3006A33BB /* Exercise.png */; };
+		B9729DC921058F67006A33BB /* Group.png in Resources */ = {isa = PBXBuildFile; fileRef = B9729DC821058F67006A33BB /* Group.png */; };
+		B99AA26F21056BDA009C9631 /* Quicksand_Bold_Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = B99AA26621056BDA009C9631 /* Quicksand_Bold_Oblique.otf */; };
+		B99AA27021056BDA009C9631 /* Quicksand_Light_Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = B99AA26721056BDA009C9631 /* Quicksand_Light_Oblique.otf */; };
+		B99AA27121056BDA009C9631 /* Quicksand SIL OFL License 1.1.txt in Resources */ = {isa = PBXBuildFile; fileRef = B99AA26821056BDA009C9631 /* Quicksand SIL OFL License 1.1.txt */; };
+		B99AA27221056BDA009C9631 /* Quicksand_Book_Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = B99AA26921056BDA009C9631 /* Quicksand_Book_Oblique.otf */; };
+		B99AA27321056BDA009C9631 /* SPECIMENPOSTER_4967.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B99AA26A21056BDA009C9631 /* SPECIMENPOSTER_4967.jpg */; };
+		B99AA27421056BDA009C9631 /* Quicksand_Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = B99AA26B21056BDA009C9631 /* Quicksand_Book.otf */; };
+		B99AA27521056BDA009C9631 /* Quicksand_Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = B99AA26C21056BDA009C9631 /* Quicksand_Light.otf */; };
+		B99AA27621056BDA009C9631 /* Quicksand_Dash.otf in Resources */ = {isa = PBXBuildFile; fileRef = B99AA26D21056BDA009C9631 /* Quicksand_Dash.otf */; };
+		B99AA27721056BDA009C9631 /* Quicksand_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B99AA26E21056BDA009C9631 /* Quicksand_Bold.otf */; };
+		B99AA27921057772009C9631 /* Rectangle 3.3.png in Resources */ = {isa = PBXBuildFile; fileRef = B99AA27821057772009C9631 /* Rectangle 3.3.png */; };
+		B99AA27B210577D7009C9631 /* noun_profile_405169.png in Resources */ = {isa = PBXBuildFile; fileRef = B99AA27A210577D7009C9631 /* noun_profile_405169.png */; };
+		B99AA28321057B3A009C9631 /* noun_Home_940427 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = B99AA28221057B39009C9631 /* noun_Home_940427 copy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02D17BA442C6297C8232D909 /* Pods-Phynergy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phynergy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phynergy/Pods-Phynergy.release.xcconfig"; sourceTree = "<group>"; };
+		1EA904B06600CD3828C32FEC /* Pods-Phynergy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phynergy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phynergy/Pods-Phynergy.debug.xcconfig"; sourceTree = "<group>"; };
 		B91BDCB621055D3E0072D1F2 /* Phynergy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phynergy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91BDCB921055D3E0072D1F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B91BDCBB21055D3E0072D1F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +48,30 @@
 		B91BDCC021055D400072D1F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B91BDCC321055D400072D1F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B91BDCC521055D400072D1F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B91BDCCB21055DC50072D1F2 /* LandingUI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LandingUI.png; sourceTree = "<group>"; };
+		B91BDCCD21055E200072D1F2 /* Group 10logo2 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 10logo2 copy.png"; sourceTree = "<group>"; };
+		B91BDCCF21055F010072D1F2 /* Group 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 2.png"; sourceTree = "<group>"; };
+		B91BDCD121055F7A0072D1F2 /* Group 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 3.png"; sourceTree = "<group>"; };
+		B91BDCD3210565270072D1F2 /* Forgot Password_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Forgot Password_.png"; sourceTree = "<group>"; };
+		B91BDCD5210566790072D1F2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B95CFAFF2106721B0028259F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B9729DC021058371006A33BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B9729DC221058CF9006A33BB /* noun_profile_1835121 copy 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noun_profile_1835121 copy 2.png"; sourceTree = "<group>"; };
+		B9729DC421058EF3006A33BB /* Exercise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Exercise.png; sourceTree = "<group>"; };
+		B9729DC821058F67006A33BB /* Group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Group.png; sourceTree = "<group>"; };
+		B99AA26621056BDA009C9631 /* Quicksand_Bold_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Bold_Oblique.otf; sourceTree = "<group>"; };
+		B99AA26721056BDA009C9631 /* Quicksand_Light_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Light_Oblique.otf; sourceTree = "<group>"; };
+		B99AA26821056BDA009C9631 /* Quicksand SIL OFL License 1.1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Quicksand SIL OFL License 1.1.txt"; sourceTree = "<group>"; };
+		B99AA26921056BDA009C9631 /* Quicksand_Book_Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Book_Oblique.otf; sourceTree = "<group>"; };
+		B99AA26A21056BDA009C9631 /* SPECIMENPOSTER_4967.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SPECIMENPOSTER_4967.jpg; sourceTree = "<group>"; };
+		B99AA26B21056BDA009C9631 /* Quicksand_Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Book.otf; sourceTree = "<group>"; };
+		B99AA26C21056BDA009C9631 /* Quicksand_Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Light.otf; sourceTree = "<group>"; };
+		B99AA26D21056BDA009C9631 /* Quicksand_Dash.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Dash.otf; sourceTree = "<group>"; };
+		B99AA26E21056BDA009C9631 /* Quicksand_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Bold.otf; sourceTree = "<group>"; };
+		B99AA27821057772009C9631 /* Rectangle 3.3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 3.3.png"; sourceTree = "<group>"; };
+		B99AA27A210577D7009C9631 /* noun_profile_405169.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noun_profile_405169.png; sourceTree = "<group>"; };
+		B99AA28221057B39009C9631 /* noun_Home_940427 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noun_Home_940427 copy.png"; sourceTree = "<group>"; };
+		C0041628E89B36260DD3EF26 /* Pods_Phynergy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phynergy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +79,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CE850DFDB071A2E3ED8F31E /* Pods_Phynergy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		545AB805B9942DC7C0C68551 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0041628E89B36260DD3EF26 /* Pods_Phynergy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B91BDCAD21055D3E0072D1F2 = {
 			isa = PBXGroup;
 			children = (
 				B91BDCB821055D3E0072D1F2 /* Phynergy */,
 				B91BDCB721055D3E0072D1F2 /* Products */,
+				DC76FACA9888A5A89A19F874 /* Pods */,
+				545AB805B9942DC7C0C68551 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +115,54 @@
 		B91BDCB821055D3E0072D1F2 /* Phynergy */ = {
 			isa = PBXGroup;
 			children = (
+				B99AA26521056BDA009C9631 /* Quicksand */,
 				B91BDCB921055D3E0072D1F2 /* AppDelegate.swift */,
 				B91BDCBB21055D3E0072D1F2 /* ViewController.swift */,
 				B91BDCBD21055D3E0072D1F2 /* Main.storyboard */,
+				B95CFAFF2106721B0028259F /* SignUpViewController.swift */,
+				B91BDCD5210566790072D1F2 /* LoginViewController.swift */,
+				B91BDCCB21055DC50072D1F2 /* LandingUI.png */,
+				B91BDCCD21055E200072D1F2 /* Group 10logo2 copy.png */,
+				B91BDCCF21055F010072D1F2 /* Group 2.png */,
+				B91BDCD121055F7A0072D1F2 /* Group 3.png */,
+				B91BDCD3210565270072D1F2 /* Forgot Password_.png */,
+				B99AA27821057772009C9631 /* Rectangle 3.3.png */,
+				B99AA27A210577D7009C9631 /* noun_profile_405169.png */,
+				B99AA28221057B39009C9631 /* noun_Home_940427 copy.png */,
+				B9729DC221058CF9006A33BB /* noun_profile_1835121 copy 2.png */,
+				B9729DC421058EF3006A33BB /* Exercise.png */,
+				B9729DC821058F67006A33BB /* Group.png */,
 				B91BDCC021055D400072D1F2 /* Assets.xcassets */,
 				B91BDCC221055D400072D1F2 /* LaunchScreen.storyboard */,
 				B91BDCC521055D400072D1F2 /* Info.plist */,
+				B9729DC021058371006A33BB /* GoogleService-Info.plist */,
 			);
 			path = Phynergy;
+			sourceTree = "<group>";
+		};
+		B99AA26521056BDA009C9631 /* Quicksand */ = {
+			isa = PBXGroup;
+			children = (
+				B99AA26621056BDA009C9631 /* Quicksand_Bold_Oblique.otf */,
+				B99AA26721056BDA009C9631 /* Quicksand_Light_Oblique.otf */,
+				B99AA26821056BDA009C9631 /* Quicksand SIL OFL License 1.1.txt */,
+				B99AA26921056BDA009C9631 /* Quicksand_Book_Oblique.otf */,
+				B99AA26A21056BDA009C9631 /* SPECIMENPOSTER_4967.jpg */,
+				B99AA26B21056BDA009C9631 /* Quicksand_Book.otf */,
+				B99AA26C21056BDA009C9631 /* Quicksand_Light.otf */,
+				B99AA26D21056BDA009C9631 /* Quicksand_Dash.otf */,
+				B99AA26E21056BDA009C9631 /* Quicksand_Bold.otf */,
+			);
+			path = Quicksand;
+			sourceTree = "<group>";
+		};
+		DC76FACA9888A5A89A19F874 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EA904B06600CD3828C32FEC /* Pods-Phynergy.debug.xcconfig */,
+				02D17BA442C6297C8232D909 /* Pods-Phynergy.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B91BDCC821055D400072D1F2 /* Build configuration list for PBXNativeTarget "Phynergy" */;
 			buildPhases = (
+				D19944770D226A53DF75EDD7 /* [CP] Check Pods Manifest.lock */,
 				B91BDCB221055D3E0072D1F2 /* Sources */,
 				B91BDCB321055D3E0072D1F2 /* Frameworks */,
 				B91BDCB421055D3E0072D1F2 /* Resources */,
+				1D1DAFCAD98BDFBC48421DD6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,20 +225,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B91BDCD221055F7A0072D1F2 /* Group 3.png in Resources */,
+				B9729DC921058F67006A33BB /* Group.png in Resources */,
+				B99AA27921057772009C9631 /* Rectangle 3.3.png in Resources */,
 				B91BDCC421055D400072D1F2 /* LaunchScreen.storyboard in Resources */,
+				B99AA27421056BDA009C9631 /* Quicksand_Book.otf in Resources */,
+				B99AA27021056BDA009C9631 /* Quicksand_Light_Oblique.otf in Resources */,
+				B99AA27121056BDA009C9631 /* Quicksand SIL OFL License 1.1.txt in Resources */,
+				B91BDCD4210565280072D1F2 /* Forgot Password_.png in Resources */,
 				B91BDCC121055D400072D1F2 /* Assets.xcassets in Resources */,
+				B99AA27321056BDA009C9631 /* SPECIMENPOSTER_4967.jpg in Resources */,
+				B99AA27221056BDA009C9631 /* Quicksand_Book_Oblique.otf in Resources */,
 				B91BDCBF21055D3E0072D1F2 /* Main.storyboard in Resources */,
+				B99AA26F21056BDA009C9631 /* Quicksand_Bold_Oblique.otf in Resources */,
+				B99AA27621056BDA009C9631 /* Quicksand_Dash.otf in Resources */,
+				B91BDCD021055F020072D1F2 /* Group 2.png in Resources */,
+				B91BDCCE21055E210072D1F2 /* Group 10logo2 copy.png in Resources */,
+				B9729DC321058CF9006A33BB /* noun_profile_1835121 copy 2.png in Resources */,
+				B99AA27721056BDA009C9631 /* Quicksand_Bold.otf in Resources */,
+				B99AA28321057B3A009C9631 /* noun_Home_940427 copy.png in Resources */,
+				B91BDCCC21055DC60072D1F2 /* LandingUI.png in Resources */,
+				B99AA27B210577D7009C9631 /* noun_profile_405169.png in Resources */,
+				B99AA27521056BDA009C9631 /* Quicksand_Light.otf in Resources */,
+				B9729DC521058EF3006A33BB /* Exercise.png in Resources */,
+				B9729DC121058371006A33BB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D1DAFCAD98BDFBC48421DD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Phynergy/Pods-Phynergy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phynergy/Pods-Phynergy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D19944770D226A53DF75EDD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Phynergy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B91BDCB221055D3E0072D1F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B91BDCD6210566790072D1F2 /* LoginViewController.swift in Sources */,
 				B91BDCBC21055D3E0072D1F2 /* ViewController.swift in Sources */,
+				B95CFB002106721B0028259F /* SignUpViewController.swift in Sources */,
 				B91BDCBA21055D3E0072D1F2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,9 +447,11 @@
 		};
 		B91BDCC921055D400072D1F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA904B06600CD3828C32FEC /* Pods-Phynergy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XL524S6NP;
 				INFOPLIST_FILE = Phynergy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,9 +466,11 @@
 		};
 		B91BDCCA21055D400072D1F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D17BA442C6297C8232D909 /* Pods-Phynergy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XL524S6NP;
 				INFOPLIST_FILE = Phynergy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
